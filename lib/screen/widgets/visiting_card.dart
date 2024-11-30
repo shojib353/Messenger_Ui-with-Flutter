@@ -96,7 +96,7 @@ class VisitingCard extends StatelessWidget {
                   decoration: BoxDecoration(
 
                   ),
-                  child: Icon(Icons.notifications_off
+                  child: const Icon(Icons.notifications_off
                     ,size: 30,color: Colors.white,),
 
                 ),
