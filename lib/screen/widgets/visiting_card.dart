@@ -93,11 +93,24 @@ class VisitingCard extends StatelessWidget {
 
 
                 Container(
-                  decoration: BoxDecoration(
+                  padding: EdgeInsets.zero,
+                  decoration: const BoxDecoration(
+
 
                   ),
-                  child: const Icon(Icons.notifications_off
-                    ,size: 30,color: Colors.white,),
+                  child: const Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+
+                    children: [
+                       Icon(Icons.notifications_off
+                        ,size: 25,color: Colors.white,),
+
+                      SizedBox(height: 30,)
+                    ],
+
+                  ),
+
+
 
                 ),
 

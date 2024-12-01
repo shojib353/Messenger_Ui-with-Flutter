@@ -34,6 +34,7 @@ class SmsScreen extends StatelessWidget {
               // Vertically scrollable column
               Expanded(
                 child: SingleChildScrollView(
+                  scrollDirection: Axis.vertical,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
